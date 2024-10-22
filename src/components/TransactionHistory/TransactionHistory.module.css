@@ -1,0 +1,27 @@
+.table {
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid #000;
+    border-collapse: collapse;
+  }
+  
+  thead {
+    background-color: #2a2a2a;
+    color: #fff;
+  }
+  
+  td {
+    width: 33.33333%;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    border: 1px solid #000;
+    font-weight: 500;
+  }
+  
+  tr td:first-child {
+    text-transform: capitalize;
+  }

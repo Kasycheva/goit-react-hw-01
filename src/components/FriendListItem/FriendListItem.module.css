@@ -1,0 +1,25 @@
+.item {
+    padding: 15px;
+    border: 3px solid #000;
+    border-radius: 10px;
+    text-align: center;
+    width: 99px;
+  }
+  
+  .item img {
+    margin: 0 auto 15px auto;
+  }
+  
+  .name {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .status {
+    color: #269024;
+  }
+  
+  .status.offline {
+    color: red;
+  }
